@@ -1,0 +1,52 @@
+.Forum-users {
+	width: 200px;
+	height: 100px;
+	background-color: #13c1d8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.forum-count-user {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-left: 0%;
+}
+.chat-user {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.chat-user img {
+	border-radius: 50px;
+	border: 3px solid rgb(123, 202, 4);
+	width: 50px;
+	height: 50px;
+	margin-bottom: 5px;
+}
+.chat-user span {
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #cdcdcd;
+}
+.chat-me {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.chat-me img {
+	border-radius: 50px;
+	border: 3px solid rgb(123, 202, 4);
+	width: 50px;
+	height: 50px;
+}
+.chat-me span {
+	margin-right: 16px;
+}
+.chat-title {
+	font-size: 45px;
+	font-weight: 600;
+}

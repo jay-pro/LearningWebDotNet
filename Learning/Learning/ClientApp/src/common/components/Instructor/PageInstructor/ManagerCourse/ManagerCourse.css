@@ -1,0 +1,123 @@
+.manager-course {
+	/* display: flex;
+	justify-content: space-evenly; */
+}
+.manager-course-left {
+	/* width: 50%; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+.manager-course-left img {
+	height: 250px;
+	display: block;
+	margin: auto;
+	object-fit: cover;
+}
+.title-course {
+	border-bottom: 1px solid #333;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 10px;
+	width: 100%;
+	font-size: 19px;
+	margin: 0 auto 30px auto;
+	display: block;
+	outline: none;
+	text-align: center;
+}
+.course-desc {
+	display: block;
+	margin: 20px 0;
+	cursor: pointer;
+}
+.course-material {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #cdcdcd;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+}
+.title-course-material {
+	font-size: 17px;
+}
+.create-course-upload {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.create-course-upload h1 {
+	font-size: 14px;
+	margin-right: 10px;
+}
+.create-course-desc {
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #333;
+}
+.upload-file {
+	padding: 7px;
+	border-radius: 3px;
+	cursor: pointer;
+	background-color: rgb(122, 122, 218);
+	color: white;
+}
+.course-right-info input {
+	padding: 7px;
+	border: 1px solid #333;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.select-teacher {
+	margin-bottom: 30px;
+}
+.ant-select-selector {
+	background: blue;
+}
+.Create-course {
+	padding: 10px;
+	background-color: #3d6ef7;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-create-sourse {
+	text-align: center;
+	margin-top: 20px;
+}
+.detail-create-course span {
+	margin-left: 0;
+	margin-right: 10px;
+	font-weight: 600;
+}
+.course-create-description {
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	width: 100%;
+	border: 1px solid #acabab;
+}
+.title-name-create {
+	text-align: center;
+	margin: 10px 0;
+	font-weight: 600;
+}
+.create-course-item {
+	padding: 10px;
+}
+.btn-loadImage {
+	cursor: pointer;
+	padding: 8px;
+	background-color: #5f79eb;
+	color: white;
+	border: 1px solid #cdcdcd;
+	border-radius: 5px;
+}
+.btn-loadImage:hover {
+	background-color: #4054af;
+}

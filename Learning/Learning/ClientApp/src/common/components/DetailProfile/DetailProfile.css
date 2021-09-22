@@ -1,0 +1,191 @@
+.btn-update-account {
+	padding: 10px;
+	color: white;
+	background-color: rgb(73, 139, 224);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	cursor: pointer;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #333;
+}
+.btn-update-account:hover {
+	background-color: rgb(31, 101, 192);
+}
+.form-profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(
+		to bottom,
+		#0cc4ae,
+		#00b9c4,
+		#00acd4,
+		#009dd9,
+		#4d8bd3
+	);
+	height: 100vh;
+}
+.profile {
+	border: 1px solid #333;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 700px;
+	backdrop-filter: blur(16px) saturate(180%);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	padding: 20px;
+}
+.img-left {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.title-profile-right {
+	font-weight: 600;
+	font-size: 3rem;
+}
+.item-info {
+	font-weight: 600;
+	font-size: 2rem;
+}
+.info-detail {
+	font-size: 1.6rem;
+}
+.profile-item {
+	margin-bottom: 20px;
+}
+.link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.link-home,
+.link-course {
+	margin-top: 10px;
+	color: white;
+	padding: 8px;
+	background-color: rgb(73, 139, 224);
+	border-radius: 5px;
+}
+
+.link-home:hover {
+	color: #333;
+}
+.link-course:hover {
+	color: #333;
+}
+.profile-left {
+	width: 30%;
+}
+.title-update {
+	text-align: center;
+}
+.list-update {
+	margin-top: 20px;
+}
+.item-update input {
+	padding: 10px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #cdcdcd;
+	width: 70%;
+}
+.item-update span {
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+.item-update {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.btn-cancel {
+	padding: 8px 25px;
+	background-color: rgb(248, 97, 51);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.btn-cancel:hover {
+	background-color: rgb(211, 68, 24);
+}
+.btn-save {
+	padding: 8px 30px;
+	background-color: rgb(89, 98, 228);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-save:hover {
+	background-color: rgb(45, 54, 179);
+}
+.btn-save-profile {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.title-update {
+  text-align: center;
+}
+.list-update {
+  margin-top: 20px;
+}
+.item-update input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  width: 70%;
+}
+.item-update span {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.item-update {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-cancel {
+  padding: 8px 25px;
+  background-color: rgb(248, 97, 51);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.btn-cancel:hover {
+  background-color: rgb(211, 68, 24);
+}
+.btn-save {
+  padding: 8px 30px;
+  background-color: rgb(89, 98, 228);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-save:hover {
+  background-color: rgb(45, 54, 179);
+}
+.btn-save-profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.list-update {
+	display: flex;
+	justify-content: space-between;
+}
+.btn-loadImg-profile {
+	padding: 3px;
+}

@@ -1,0 +1,219 @@
+/* <<<<<<< HEAD
+=======
+>>>>>>> dev_Nhi
+>>>>>>> dev_Nhi
+=======
+>>>>>>> HoanDev
+.systemadmin-wrapper-attendance {
+	max-width: 1000px;
+	width: 100%;
+	background-color: paleturquoise;
+	margin: 20px auto;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+	padding: 30px;
+}
+
+.systemadmin-wrapper-attendance .title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.systemadmin-wrapper-attendance .form {
+	width: 100%;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield label {
+	width: 200px;
+	color: darkblue;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .input,
+.systemadmin-wrapper-attendance .form .inputfield .textarea {
+	width: 100%;
+	outline: none;
+	border: 1px solid white;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .textarea {
+	width: 100%;
+	height: 125px;
+	resize: none;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .custom_select {
+	position: relative;
+	width: 100%;
+	height: 37px;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .custom_select:before {
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border: 8px solid;
+	border-color: skyblue transparent transparent transparent;
+	pointer-events: none;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .custom_select select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 1px solid skyblue;
+	border-radius: 3px;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .input:focus,
+.systemadmin-wrapper-attendance .form .inputfield .textarea:focus,
+.systemadmin-wrapper-attendance .form .inputfield .custom_select select:focus {
+	border: 1px solid blue;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield p {
+	font-size: 14px;
+	color: #757575;
+}
+.systemadmin-wrapper-attendance .form .inputfield .check {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.systemadmin-wrapper-attendance
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.systemadmin-wrapper-attendance .form .inputfield .check .checkmark {
+	width: 15px;
+	height: 15px;
+	border: 1px solid yellow;
+	display: block;
+	position: relative;
+}
+.systemadmin-wrapper-attendance .form .inputfield .check .checkmark:before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 2px;
+	width: 5px;
+	height: 2px;
+	border: 2px solid;
+	border-color: transparent transparent #fff #fff;
+	transform: rotate(-45deg);
+	display: none;
+}
+.systemadmin-wrapper-attendance
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"]:checked
+	~ .checkmark {
+	background: yellow;
+}
+
+.systemadmin-wrapper-attendance
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"]:checked
+	~ .checkmark:before {
+	display: block;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .btn {
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 0px;
+	background: darkblue;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield .btn:hover {
+	background: yellow;
+	color: black;
+}
+
+.systemadmin-wrapper-attendance .form .inputfield:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 420px) {
+	.systemadmin-wrapper-attendance .form .inputfield {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.systemadmin-wrapper-attendance .form .inputfield label {
+		margin-bottom: 5px;
+	}
+	.systemadmin-wrapper-attendance .form .inputfield.terms {
+		flex-direction: row;
+	}
+
+	.coursemanage {
+		flex: 4;
+	}
+
+	.quanlykhoahoc {
+		padding-left: 50px;
+	}
+
+	table {
+		display: table-header-group;
+		align-items: center;
+	}
+
+	button {
+		color: black;
+		background-color: yellow;
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-right: 5px;
+		margin-top: 5px;
+		font-size: 17px;
+	}
+
+	button:hover {
+		color: white;
+		background-color: red;
+	}
+
+	h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+ */

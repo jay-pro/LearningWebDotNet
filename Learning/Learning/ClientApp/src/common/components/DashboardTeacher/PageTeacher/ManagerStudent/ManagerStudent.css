@@ -1,0 +1,65 @@
+.form-manager-user {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.form-count {
+	display: flex;
+	width: 17%;
+	height: 120px;
+	box-shadow: rgba(51, 50, 50, 0.137) 0px 5px 15px;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: rgb(223, 224, 224);
+	border-radius: 7px;
+}
+.count-user-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.count-user-info span:first-child {
+	font-size: 20px;
+	margin-left: 0;
+	font-weight: 600;
+}
+.count-user-info span:nth-child(2) {
+	font-size: 17px;
+	margin-left: 0;
+}
+.table-User-title {
+	font-weight: 600;
+	text-align: center;
+	margin-top: 20px;
+}
+.table-User {
+	padding: 20px;
+}
+.add-User {
+	padding: 8px;
+	background-color: rgb(233, 126, 84);
+	color: white;
+	width: 90px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.check-absent {
+	padding: 5px;
+	background-color: rgb(0, 71, 202);
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.check-delete {
+	padding: 5px;
+	background-color: rgb(236, 123, 89);
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.anticon {
+	margin-left: 0;
+}

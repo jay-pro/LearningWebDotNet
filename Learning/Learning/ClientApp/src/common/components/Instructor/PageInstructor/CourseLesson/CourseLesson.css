@@ -1,0 +1,73 @@
+:root {
+	--primary: #08aeea;
+	--secondary: #13d2b8;
+	--purple: #bd93f9;
+	--pink: #ff6bcb;
+	--blue: #8be9fd;
+	--gray: #333;
+	--font: "Poppins", sans-serif;
+	--gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+	--shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+.simple-card {
+	background-color: white;
+	border-radius: 6px;
+	padding: 1.5rem;
+	box-shadow: var(--shadow);
+	width: calc(33.33% - 40px);
+	margin: 20px 20px;
+	border: 1px solid #cdcdcd;
+	background-color: #ccc9c9;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.simple-card-image {
+	position: relative;
+	height: 0;
+	padding-bottom: 300px;
+}
+.simple-card-image > .item-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+.item-video {
+	width: 100% !important;
+	height: 100% !important;
+}
+.simple-card-content {
+	padding: 1rem 1rem;
+}
+.simple-card-title {
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+	color: #2b2b2b;
+}
+.simple-card-desc {
+	color: white;
+	font-weight: 300;
+	line-height: 1.6;
+	font-size: 1.4rem;
+	margin-bottom: 3rem;
+}
+.simple-card-line {
+	width: 30%;
+	height: 2px;
+	margin-left: auto;
+	background-color: var(--primary);
+}
+.btn-update-lesson {
+	padding: 8px;
+	border: 1px solid #cdcdcd;
+	background-color: #08aeea;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}

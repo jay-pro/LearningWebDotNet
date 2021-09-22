@@ -1,0 +1,175 @@
+.classadmin-wrapper-attendance {
+	max-width: 1000px;
+	width: 100%;
+	background-color: paleturquoise;
+	margin: 20px auto;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+	padding: 30px;
+}
+
+.classadmin-wrapper-attendance .title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.classadmin-wrapper-attendance .form {
+	width: 100%;
+}
+
+.classadmin-wrapper-attendance .form .inputfield {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.classadmin-wrapper-attendance .form .inputfield label {
+	width: 200px;
+	color: darkblue;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .input,
+.classadmin-wrapper-attendance .form .inputfield .textarea {
+	width: 100%;
+	outline: none;
+	border: 1px solid white;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .textarea {
+	width: 100%;
+	height: 125px;
+	resize: none;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .custom_select {
+	position: relative;
+	width: 100%;
+	height: 37px;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .custom_select:before {
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border: 8px solid;
+	border-color: skyblue transparent transparent transparent;
+	pointer-events: none;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .custom_select select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 1px solid skyblue;
+	border-radius: 3px;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .input:focus,
+.classadmin-wrapper-attendance .form .inputfield .textarea:focus,
+.classadmin-wrapper-attendance .form .inputfield .custom_select select:focus {
+	border: 1px solid blue;
+}
+
+.classadmin-wrapper-attendance .form .inputfield p {
+	font-size: 14px;
+	color: #757575;
+}
+.classadmin-wrapper-attendance .form .inputfield .check {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.classadmin-wrapper-attendance .form .inputfield .check input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.classadmin-wrapper-attendance .form .inputfield .check .checkmark {
+	width: 15px;
+	height: 15px;
+	border: 1px solid yellow;
+	display: block;
+	position: relative;
+}
+.classadmin-wrapper-attendance .form .inputfield .check .checkmark:before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 2px;
+	width: 5px;
+	height: 2px;
+	border: 2px solid;
+	border-color: transparent transparent #fff #fff;
+	transform: rotate(-45deg);
+	display: none;
+}
+.classadmin-wrapper-attendance
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"]:checked
+	~ .checkmark {
+	background: yellow;
+}
+
+.classadmin-wrapper-attendance
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"]:checked
+	~ .checkmark:before {
+	display: block;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .btn {
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 0px;
+	background: darkblue;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+}
+
+.classadmin-wrapper-attendance .form .inputfield .btn:hover {
+	background: yellow;
+	color: black;
+}
+
+.classadmin-wrapper-attendance .form .inputfield:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 420px) {
+	.classadmin-wrapper-attendance .form .inputfield {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.classadmin-wrapper-attendance .form .inputfield label {
+		margin-bottom: 5px;
+	}
+	.classadmin-wrapper-attendance .form .inputfield.terms {
+		flex-direction: row;
+	}
+}

@@ -1,0 +1,10 @@
+.page-err {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.page-err iframe {
+	width: 350px;
+	height: 350px;
+}

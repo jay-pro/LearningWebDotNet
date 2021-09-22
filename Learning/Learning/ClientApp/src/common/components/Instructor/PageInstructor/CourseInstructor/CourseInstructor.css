@@ -1,0 +1,39 @@
+.title-course-instructor {
+	margin-top: 30px;
+}
+.btn-item-delete {
+	padding: 6px 20px;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	background-color: rgb(233, 60, 60);
+	cursor: pointer;
+}
+.btn-item-delete:hover {
+	color: #333;
+}
+.btn-item-update {
+	padding: 6px 20px;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	background-color: rgb(74, 147, 231);
+	cursor: pointer;
+	margin-left: 40px;
+}
+.btn-item-update:hover {
+	color: #333;
+}
+.button-update-exit {
+	/* display: flex;
+	justify-content: space-around; */
+	text-align: center;
+}
+.btn-back {
+	padding: 10px;
+	border: 1px solid #cdcdcd;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: rgb(87, 158, 224);
+	color: white;
+}

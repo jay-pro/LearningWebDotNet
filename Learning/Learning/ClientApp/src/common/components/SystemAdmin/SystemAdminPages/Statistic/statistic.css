@@ -1,0 +1,22 @@
+.btn-statistic {
+  /* padding: 6px 40px;
+  width: 40px;
+  outline: none;
+  border-radius: 3px; */
+  color: white;
+  background-color: #dd8410;
+  cursor: pointer;
+}
+.btn-statistic:hover {
+  color: #333;
+}
+
+.custom-chart {
+  /* width: 1000px; */
+  height: 100px;
+  cursor: pointer;
+}
+.Chart-Score {
+  margin-top: 80px;
+  margin-left: 90px;
+}

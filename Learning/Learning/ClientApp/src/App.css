@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	background-color: white;
+	color: #272e35;
+}
+.container-signup {
+	width: 100%;
+	height: 99vh;
+	background-image: radial-gradient(
+		circle,
+		#d16ba5,
+		#ca6eb3,
+		#c173c0,
+		#b578cd,
+		#a57ed9,
+		#8a88e2,
+		#6c91e7,
+		#4898e8,
+		#10a1dd,
+		#08a6cc,
+		#38aaba,
+		#5aaba9
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.SignUp {
+	width: 80%;
+	height: 90%;
+	display: flex;
+	background-color: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.SignUp-left {
+	width: 50%;
+	height: 100%;
+	background: #eff2f6;
+}
+
+.wrapper-signup {
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.hadding {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text-SignUp {
+	font-size: 1.8rem;
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+.fill-users,
+.fill-password,
+.fill-email,
+.confirm-password {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;
+}
+.text-input {
+	width: 300px;
+	height: 40px;
+	border-radius: 8px;
+	outline: none;
+	/* border: none; */
+	border: 2px solid #dedede;
+	padding: 10px;
+	font-size: 1.4rem;
+}
+
+/* button */
+.btn-SignUp {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #504ed8;
+	width: 30%;
+	padding: 10px;
+	border-radius: 10px;
+}
+.button-signup {
+	color: white;
+}
+.SignUp-right {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	background-image: linear-gradient(
+		to right top,
+		#d16ba5,
+		#c777b9,
+		#ba83ca,
+		#aa8fd8,
+		#9a9ae1,
+		#8aa7ec,
+		#79b3f4,
+		#69bff8,
+		#52cffe,
+		#41dfff,
+		#46eefa,
+		#5ffbf1
+	);
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.img-SignUp {
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+}
+.img-Point {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	top: 40%;
+	right: 7%;
+}
+.img-Calender {
+	position: absolute;
+	right: 70%;
+	top: 10%;
+	width: 10%;
+	height: 10%;
+	object-fit: cover;
+}
+.btn-LogIn {
+	width: 100%;
+	height: 40px;
+}
+.button-login {
+	font-weight: 600;
+	position: relative;
+	background: #eceff3;
+	left: 30px;
+	top: 30px;
+	width: 80px;
+	height: 40px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0.3rem 0.3rem 0.6rem #b9becf, -0.2rem -0.2rem 0.5rem #fff;
+}
+.wrapper-signup h1 {
+	font-weight: 600;
+}
+.btn-exit {
+	padding: 8px;
+	color: white;
+	background-color: #e9602a;
+	border-radius: 5px;
+	/* margin: 0 auto; */
+	width: 30%;
+	cursor: pointer;
+}
+.button-exit {
+	text-align: center;
+}
+
+.avt-teacher {
+	width: 100%;
+	height: 200px;
+}
+.Assign-teacher {
+	padding: 10px 30px;
+	background-color: #10a1dd;
+	color: white;
+	border-radius: 5px;
+	border: 1px solid #cdcdcd;
+	text-align: center;
+	cursor: pointer;
+}
+.Assign-teacher:hover {
+	background-color: #1189bd;
+}
+
+.btn-assign-teacher {
+	text-align: center;
+}
+
+/* Responsive */
+@media screen and (min-width: 1024px) {
+	.img-SignUp {
+		width: 80%;
+		height: 80%;
+		text-align: center;
+	}
+
+	.img-Point {
+		width: 80px;
+		height: 80px;
+		top: 10%;
+		right: 7%;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.SignUp-right {
+		display: none;
+	}
+	.SignUp-left {
+		width: 100%;
+	}
+}

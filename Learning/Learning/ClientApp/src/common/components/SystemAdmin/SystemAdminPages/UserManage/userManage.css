@@ -1,0 +1,197 @@
+/* .systemadmin-wrapper {
+	max-width: 500px;
+	width: 100%;
+	background-color: paleturquoise;
+	margin: 80px auto;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+	padding: 30px;
+}
+
+.systemadmin-add .systemadmin-wrapper {
+	height: 80%;
+}
+
+.systemadmin-update .systemadmin-wrapper {
+	height: 80%;
+}
+
+.systemadmin-delete .systemadmin-wrapper {
+	height: 40%;
+}
+
+.systemadmin-wrapper .title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.systemadmin-wrapper .form {
+	width: 100%;
+}
+
+.systemadmin-wrapper .form .inputfield {
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.systemadmin-wrapper .form .inputfield label {
+	width: 200px;
+	color: darkblue;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.systemadmin-wrapper .form .inputfield .input,
+.systemadmin-wrapper .form .inputfield .textarea {
+	width: 100%;
+	outline: none;
+	border: 1px solid white;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+}
+
+.systemadmin-wrapper .form .inputfield .textarea {
+	width: 100%;
+	height: 70px;
+	resize: none;
+}
+
+.systemadmin-wrapper .form .inputfield .custom_select {
+	position: relative;
+	width: 100%;
+	height: 37px;
+}
+
+.systemadmin-wrapper .form .inputfield .custom_select:before {
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	border: 8px solid;
+	border-color: skyblue transparent transparent transparent;
+	pointer-events: none;
+}
+
+.systemadmin-wrapper .form .inputfield .custom_select select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 1px solid skyblue;
+	border-radius: 3px;
+}
+
+.systemadmin-wrapper .form .inputfield .input:focus,
+.systemadmin-wrapper .form .inputfield .textarea:focus,
+.systemadmin-wrapper .form .inputfield .custom_select select:focus {
+	border: 1px solid blue;
+}
+
+.systemadmin-wrapper .form .inputfield p {
+	font-size: 14px;
+	color: #757575;
+}
+.systemadmin-wrapper .form .inputfield .check {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	display: block;
+	cursor: pointer;
+}
+.systemadmin-wrapper .form .inputfield .check input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.systemadmin-wrapper .form .inputfield .check .checkmark {
+	width: 15px;
+	height: 15px;
+	border: 1px solid yellow;
+	display: block;
+	position: relative;
+}
+.systemadmin-wrapper .form .inputfield .check .checkmark:before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 2px;
+	width: 5px;
+	height: 2px;
+	border: 2px solid;
+	border-color: transparent transparent #fff #fff;
+	transform: rotate(-45deg);
+	display: none;
+}
+.systemadmin-wrapper
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"]:checked
+	~ .checkmark {
+	background: yellow;
+}
+
+.systemadmin-wrapper
+	.form
+	.inputfield
+	.check
+	input[type="checkbox"]:checked
+	~ .checkmark:before {
+	display: block;
+}
+
+.systemadmin-wrapper .form .inputfield .btn {
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 0px;
+	background: darkblue;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+}
+
+.systemadmin-wrapper .form .inputfield .btn:hover {
+	background: yellow;
+	color: black;
+}
+
+.systemadmin-wrapper .form .inputfield:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 420px) {
+	.systemadmin-wrapper .form .inputfield {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.systemadmin-wrapper .form .inputfield label {
+		margin-bottom: 5px;
+	}
+	.systemadmin-wrapper .form .inputfield.terms {
+		flex-direction: row;
+	}
+}
+
+.systemadmin-manageuser-button {
+	padding-top: 20px;
+	width: fit-content;
+	font-size: 15px;
+	border: 0px;
+	background: hotpink;
+	border-radius: 3px;
+}
+ */

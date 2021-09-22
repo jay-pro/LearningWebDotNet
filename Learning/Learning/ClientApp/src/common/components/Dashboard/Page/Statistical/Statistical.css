@@ -1,0 +1,32 @@
+.custom-chart {
+	/* width: 1000px; */
+	height: 100px;
+	cursor: pointer;
+}
+.Chart-Score {
+	margin-top: 80px;
+	margin-left: 90px;
+}
+
+.chart-week {
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	background-color: #6a5af9;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+.chart-month {
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	background-color: #6a5af9;
+	color: white;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
