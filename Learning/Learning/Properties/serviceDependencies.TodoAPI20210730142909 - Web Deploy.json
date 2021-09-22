@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ssvsv/databases/mydb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:db",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/grp5lms",
+      "type": "storage.azure",
+      "connectionId": "ConnectionStrings:AzureBlobStorage",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
